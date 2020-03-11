@@ -1,0 +1,55 @@
+[{
+		"name": "First Name",
+		"type": "text",
+		"required": "true"
+	},
+	{
+		"name": "Last Name",
+		"type": "text",
+		"required": "true"
+	},
+	{
+		"name": "Gender",
+		"type": "radio",
+		"option": [{
+				"id": "1",
+				"value": "Male"
+			},
+			{
+				"id": "2",
+				"value": "Female"
+			}
+		],
+		"required": "true"
+
+	},
+	{
+		"name": "Email",
+		"type": "email",
+		"required": "true"
+	},
+	{
+		"name": "Phone Number",
+		"type": "text",
+		"required": "false"
+	},
+	{
+		"name": "Address",
+		"type": "textarea",
+		"required": "false"
+	},
+	{
+		"name": "Status",
+		"type": "select",
+		"option": [{
+				"id": "1",
+				"value": "Active"
+			},
+			{
+				"id": "2",
+				"value": "Inactive"
+			}
+		],
+		"required": "true"
+	}
+]
